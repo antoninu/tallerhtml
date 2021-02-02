@@ -26,6 +26,28 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
+      <h3>Contacto:</h3>
+      <form>
+        <label for="fname">Nombres</label>
+        <input type="text" id="fname" name="name" placeholder="Nombres..." />
+
+        <label for="motivo">Motivo de contacto</label>
+        <select id="motivo" name="motivo">
+          <option value="saludo">Saludo</option>
+          <option value="trabajo">Trabajo</option>
+          <option value="academia">Academia</option>
+        </select>
+
+        <label for="subject">Mensaje</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Escribe aquí tu mensaje..."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
     </main>
     <footer>
       Desarrollo con Tecnologías Web 2021. Antonio Aspite. Correo:
